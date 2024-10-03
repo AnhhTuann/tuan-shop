@@ -1,0 +1,22 @@
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+a,
+ul,
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
