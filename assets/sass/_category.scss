@@ -1,0 +1,17 @@
+.category {
+  overflow: hidden;
+  &__item {
+    text-align: center;
+    border: 1px solid $border-color;
+    padding: 0.625rem 0.625rem 1.25rem;
+    border-radius: 1.25rem;
+  }
+  &__img {
+    border-radius: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+  &__title {
+    color: $text-color;
+    font-size: $small-font-size;
+  }
+}

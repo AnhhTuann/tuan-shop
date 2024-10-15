@@ -132,7 +132,7 @@ table {
 input,
 textarea,
 body {
-  color: hsl(154, 13%, 32%);
+  color: hsl(344, 9.2%, 32%);
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -188,7 +188,7 @@ input {
 }
 
 .form__input {
-  border: 1px solid hsl(113, 15%, 90%);
+  border: 1px solid hsl(309, 14%, 90%);
   padding-inline: 1rem;
   height: 45px;
   border-radius: 0.25rem;
@@ -200,14 +200,26 @@ input {
   gap: 1.5rem;
 }
 
+.section {
+  padding-block: 2rem;
+}
+
+.section__title {
+  font-size: 1.375rem;
+  margin-bottom: 1.5rem;
+}
+.section__title span {
+  color: hsl(345.5, 100%, 77.3%);
+}
+
 .section--lg {
   padding-block: 4rem;
 }
 
 .btn {
   display: inline-block;
-  background-color: hsl(176, 88%, 27%);
-  border: 2px solid hsl(176, 88%, 27%);
+  background-color: hsl(345.5, 100%, 77.3%);
+  border: 2px solid hsl(345.5, 100%, 77.3%);
   color: hsl(0, 0%, 100%);
   padding-inline: 1.75rem;
   height: 49px;
@@ -221,12 +233,42 @@ input {
 }
 .btn:hover {
   background-color: transparent;
-  color: hsl(176, 88%, 27%);
+  color: hsl(345.5, 100%, 77.3%);
+}
+
+.swiper {
+  overflow: initial;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: "";
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: -1.875rem;
+  background-color: hsl(0, 71%, 89%);
+  border: 1px solid hsl(22.1, 65.5%, 94.3%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: hsl(345.5, 100%, 77.3%);
+  font-size: 0.6875rem;
+}
+
+.swiper-button-prev {
+  left: initial;
+  right: 2.5rem;
+}
+
+.swiper-button-next {
+  right: 0;
 }
 
 .header__top {
-  background-color: hsl(129, 44%, 94%);
-  border-bottom: 1px solid hsl(176, 88%, 27%);
+  background-color: hsl(0, 71%, 89%);
+  border-bottom: 1px solid hsl(345.5, 100%, 77.3%);
   padding-block: 0.875rem;
 }
 .header__container {
@@ -241,11 +283,11 @@ input {
   font-size: 0.875rem;
 }
 .header__alert-news {
-  color: hsl(60, 1%, 56%);
+  color: hsl(329.4, 33.8%, 27.3%);
   font-weight: 600;
 }
 .header__top-action {
-  color: hsl(154, 13%, 32%);
+  color: hsl(344, 9.2%, 32%);
 }
 
 .nav {
@@ -273,7 +315,7 @@ input {
   transition: all 0.2s cubic-bezier(0, 0, 0.05, 1);
 }
 .nav .active-link, .nav__link:hover {
-  color: hsl(176, 88%, 27%);
+  color: hsl(345.5, 100%, 77.3%);
 }
 .nav__user-actions {
   display: flex;
@@ -287,7 +329,7 @@ input {
   position: absolute;
   top: -0.625rem;
   right: -0.625rem;
-  background-color: hsl(176, 88%, 27%);
+  background-color: hsl(345.5, 100%, 77.3%);
   color: hsl(0, 0%, 100%);
   height: 18px;
   width: 18px;
@@ -335,7 +377,7 @@ input {
   line-height: 1.4;
 }
 .home__title span {
-  color: hsl(176, 88%, 27%);
+  color: hsl(345.5, 100%, 77.3%);
   font-size: 3.5rem;
 }
 .home__description {
@@ -343,6 +385,24 @@ input {
 }
 .home__img {
   justify-self: flex-end;
+}
+
+.category {
+  overflow: hidden;
+}
+.category__item {
+  text-align: center;
+  border: 1px solid hsl(22.1, 65.5%, 94.3%);
+  padding: 0.625rem 0.625rem 1.25rem;
+  border-radius: 1.25rem;
+}
+.category__img {
+  border-radius: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+.category__title {
+  color: hsl(344, 9.2%, 32%);
+  font-size: 0.875rem;
 }
 
 /*# sourceMappingURL=app.css.map */
