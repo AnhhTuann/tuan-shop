@@ -85,11 +85,16 @@ input {
     background-color: transparent;
     color: $first-color;
   }
+  &--md {
+    font-family: $body-font;
+    height: 45px;
+    line-height: 42px;
+  }
 }
 
 .flex {
   display: flex;
-  align-self: center;
+
   column-gap: 0.5rem;
 }
 
