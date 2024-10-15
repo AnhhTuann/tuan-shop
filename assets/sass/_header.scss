@@ -1,0 +1,32 @@
+.header {
+  &__top {
+    background-color: $first-color-alt;
+    border-bottom: 1px solid $first-color;
+    padding-block: 0.875rem;
+  }
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__contact {
+    span:first-child {
+      margin-right: 2rem;
+    }
+  }
+
+  &__contact span,
+  &__alert-news,
+  &__top-action {
+    font-size: $small-font-size;
+  }
+
+  &__alert-news {
+    color: $text-color-light;
+    font-weight: $weight-600;
+  }
+
+  &__top-action {
+    color: $text-color;
+  }
+}

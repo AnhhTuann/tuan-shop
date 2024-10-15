@@ -147,18 +147,6 @@ h4 {
   font-weight: 600;
 }
 
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-p {
-  line-height: 1.5rem;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -191,6 +179,112 @@ input {
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+.container {
+  max-width: 1320px;
+  margin-inline: auto;
+  padding-inline: 0.75rem;
+}
+
+.form__input {
+  border: 1px solid hsl(113, 15%, 90%);
+  padding-inline: 1rem;
+  height: 45px;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+}
+
+.header__top {
+  background-color: hsl(129, 44%, 94%);
+  border-bottom: 1px solid hsl(176, 88%, 27%);
+  padding-block: 0.875rem;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__contact span:first-child {
+  margin-right: 2rem;
+}
+.header__contact span, .header__alert-news, .header__top-action {
+  font-size: 0.875rem;
+}
+.header__alert-news {
+  color: hsl(60, 1%, 56%);
+  font-weight: 600;
+}
+.header__top-action {
+  color: hsl(154, 13%, 32%);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 6.5rem;
+  align-items: center;
+  column-gap: 1rem;
+}
+.nav__menu {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 2.5rem;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  column-gap: 2.5rem;
+}
+.nav__link {
+  color: hsl(0, 0%, 13%);
+  font-weight: 700;
+  transition: all 0.2s cubic-bezier(0, 0, 0.05, 1);
+}
+.nav .active-link, .nav__link:hover {
+  color: hsl(176, 88%, 27%);
+}
+.nav__user-actions {
+  display: flex;
+  align-items: center;
+  column-gap: 1.25rem;
+}
+.nav__action-btn {
+  position: relative;
+}
+.nav__action-btn .count {
+  position: absolute;
+  top: -0.625rem;
+  right: -0.625rem;
+  background-color: hsl(176, 88%, 27%);
+  color: hsl(0, 0%, 100%);
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 0.6875rem;
+}
+.nav__action-btn img {
+  width: 30px;
+}
+.nav__logo-img {
+  width: 150px;
+}
+.nav__search {
+  width: 340px;
+  position: relative;
+}
+.nav__search .form__input {
+  width: 100%;
+}
+.nav__search-btn {
+  position: absolute;
+  top: 24%;
+  right: 1.25rem;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=app.css.map */
