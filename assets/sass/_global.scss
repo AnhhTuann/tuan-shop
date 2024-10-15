@@ -87,6 +87,23 @@ input {
   }
 }
 
+.flex {
+  display: flex;
+  align-self: center;
+  column-gap: 0.5rem;
+}
+
+.new__price {
+  color: $first-color;
+  font-weight: $weight-600;
+}
+
+.old__price {
+  color: $text-color-light;
+  font-size: $small-font-size;
+  text-decoration: line-through;
+}
+
 // Swiper slider
 
 .swiper {

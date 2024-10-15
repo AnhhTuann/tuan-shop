@@ -1,0 +1,27 @@
+.products {
+  &__group {
+    display: flex;
+    column-gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  &__btn {
+    background-color: $container-color;
+    color: $title-color;
+    padding: 1rem 1.25rem 0.875rem;
+    border-radius: 0.25rem;
+    font-family: $second-font;
+    font-size: $small-font-size;
+    font-weight: $weight-600;
+    cursor: pointer;
+  }
+  &__btn.active-tab {
+    color: $first-color;
+    background-color: $second-color;
+  }
+  &__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  &__item:not(.active-tab) {
+    display: none;
+  }
+}
