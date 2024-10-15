@@ -1,0 +1,32 @@
+.home {
+  &__container {
+    grid-template-columns: 5fr 7fr;
+    align-items: center;
+  }
+  &__subtitle,
+  &__description {
+    font-size: $large-font-size;
+  }
+  &__subtitle {
+    font-family: $second-font;
+    font-weight: $weight-600;
+    margin-bottom: 1rem;
+    display: block;
+  }
+
+  &__title {
+    font-size: $h1-font-size;
+    font-weight: $weight-700;
+    line-height: 1.4;
+    span {
+      color: $first-color;
+      font-size: $big-font-size;
+    }
+  }
+  &__description {
+    margin-block: 0.5rem 2rem;
+  }
+  &__img {
+    justify-self: flex-end;
+  }
+}

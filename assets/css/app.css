@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Spartan:wght@100..900&display=swap");
 html,
 body,
 div,
@@ -142,7 +142,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Spartan", sans-serif;
   color: hsl(0, 0%, 13%);
   font-weight: 600;
 }
@@ -193,6 +193,35 @@ input {
   height: 45px;
   border-radius: 0.25rem;
   font-size: 0.875rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section--lg {
+  padding-block: 4rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: hsl(176, 88%, 27%);
+  border: 2px solid hsl(176, 88%, 27%);
+  color: hsl(0, 0%, 100%);
+  padding-inline: 1.75rem;
+  height: 49px;
+  line-height: 49px;
+  border-radius: 0.25rem;
+  font-family: "Spartan", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  transition: all 0.4s cubic-bezier(0, 0, 0.05, 1);
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: transparent;
+  color: hsl(176, 88%, 27%);
 }
 
 .header__top {
@@ -285,6 +314,35 @@ input {
   top: 24%;
   right: 1.25rem;
   cursor: pointer;
+}
+
+.home__container {
+  grid-template-columns: 5fr 7fr;
+  align-items: center;
+}
+.home__subtitle, .home__description {
+  font-size: 1.125rem;
+}
+.home__subtitle {
+  font-family: "Spartan", sans-serif;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: block;
+}
+.home__title {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.home__title span {
+  color: hsl(176, 88%, 27%);
+  font-size: 3.5rem;
+}
+.home__description {
+  margin-block: 0.5rem 2rem;
+}
+.home__img {
+  justify-self: flex-end;
 }
 
 /*# sourceMappingURL=app.css.map */
