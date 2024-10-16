@@ -1,0 +1,11 @@
+.breadcrumb {
+  background-color: $container-color;
+  padding-block: 1.5rem;
+  &__list {
+    column-gap: 0.75rem;
+  }
+  &__link {
+    color: $text-color;
+    font-size: $small-font-size;
+  }
+}
