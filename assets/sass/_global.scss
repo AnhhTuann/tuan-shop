@@ -139,3 +139,32 @@ input {
 .swiper-button-next {
   right: 0;
 }
+
+//panigation
+.pagination {
+  display: flex;
+  column-gap: 0.625rem;
+  margin-top: 2.75rem;
+
+  &__link {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 0.25rem;
+    color: $text-color;
+    font-size: $small-font-size;
+    font-weight: $weight-700;
+    transition: all 0.15s $transition;
+    &.active,
+    &:hover {
+      background-color: $first-color;
+      color: $body-color;
+    }
+    &.icon {
+      border-top-right-radius: 50%;
+      border-bottom-right-radius: 50%;
+    }
+  }
+}
