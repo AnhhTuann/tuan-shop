@@ -1,0 +1,64 @@
+.footer {
+  &__container {
+    grid-template-columns: 4.5fr repeat(2, 2fr) 3.5fr;
+    padding-block: 2.5rem;
+  }
+  &__logo-img {
+    width: 120px;
+  }
+  &__subtitle {
+    color: $text-color-light;
+    font-size: $small-font-size;
+    margin-block: 1.25rem 0.625rem;
+  }
+  &__description {
+    margin-bottom: 0.25rem;
+    span {
+      font-weight: $weight-600;
+    }
+  }
+  &__social {
+    &__subtitle {
+      margin-top: 1.875rem;
+    }
+  }
+  &__subscribe {
+    margin: 1rem 0 1rem;
+    color: $text-color-light;
+  }
+
+  &__social-links {
+    column-gap: 0.25rem;
+  }
+  &__social-icon {
+    width: 20px;
+    opacity: 0.7;
+  }
+  &__title {
+    font-size: $large-font-size;
+    margin-block: 1rem 1.25rem;
+  }
+  &__link {
+    color: $title-color;
+    font-size: $small-font-size;
+    margin-bottom: 1rem;
+    display: block;
+    transition: all 0.3s $transition;
+    &:hover {
+      color: $first-color;
+      margin-left: 0.25rem;
+    }
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 1.25rem;
+    border-top: 1px solid $border-color-alt;
+  }
+}
+
+.copyright,
+.designer {
+  color: $text-color-light;
+  font-size: $small-font-size;
+}
