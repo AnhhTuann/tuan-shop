@@ -90,11 +90,16 @@ input {
     height: 45px;
     line-height: 42px;
   }
+  &--sm {
+    font-family: $body-font;
+    height: 40px;
+    line-height: 36px;
+  }
 }
 
 .flex {
   display: flex;
-
+  align-items: center;
   column-gap: 0.5rem;
 }
 
