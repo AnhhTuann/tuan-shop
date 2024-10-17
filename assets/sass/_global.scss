@@ -32,6 +32,11 @@ input {
   outline: none;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
 .container {
   max-width: 1320px;
   margin-inline: auto;
@@ -101,6 +106,21 @@ input {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
+}
+
+.form {
+  row-gap: 1rem;
+}
+
+.form__group {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.textarea {
+  height: 200px;
+  padding-block: 1rem;
+  resize: none;
 }
 
 .new__price {

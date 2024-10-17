@@ -1,0 +1,86 @@
+.detail {
+  &__tabs {
+    display: flex;
+    column-gap: 1.75rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+  }
+  &__tab {
+    font-family: $second-font;
+    font-size: $large-font-size;
+    font-weight: $weight-600;
+    &.active-tab {
+      color: $first-color;
+    }
+  }
+}
+
+.details__tab-content:not(.active-tab) {
+  display: none;
+}
+
+.info__table tr th,
+.info__table tr td {
+  border: 1px solid $border-color-alt;
+  padding: 0.625rem 1.25rem;
+}
+
+.info__table tr th {
+  font-weight: $weight-500;
+  text-align: left;
+}
+
+.info__table tr td {
+  color: $text-color-light;
+}
+
+.reviews__container {
+  padding-bottom: 3rem;
+  row-gap: 1.25rem;
+}
+
+.review {
+  &__single {
+    border-bottom: 1px solid $border-color-alt;
+    padding-bottom: 1.25rem;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 1.5rem;
+    &:last-child {
+      padding-bottom: 3rem;
+    }
+  }
+
+  &__img {
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  &__title {
+    font-size: $tiny-font-size;
+  }
+  &__data {
+    width: calc(100% - 94px);
+  }
+  &__desctiption {
+    margin-bottom: 0.5rem;
+  }
+  &__rating {
+    color: hsl(42, 100%, 50%);
+    margin-bottom: 0.25rem;
+  }
+  &__date,
+  &__rating {
+    font-size: $small-font-size;
+  }
+
+  &__form-title {
+    margin-top: 3rem;
+    font-size: $large-font-size;
+    margin-bottom: 1rem;
+  }
+}
+
+.rate__product {
+  margin-bottom: 2rem;
+}
