@@ -1,0 +1,72 @@
+.table {
+  table-layout: fixed;
+  margin-bottom: 2rem;
+
+  &__container {
+    overflow-x: auto;
+  }
+  &__img {
+    width: 80px;
+  }
+  &__title,
+  &__description,
+  &__price,
+  &__subtotal,
+  &__trash {
+    font-size: $small-font-size;
+  }
+  &__title {
+    color: $first-color;
+  }
+  &__description {
+    max-width: 250px;
+    margin-inline: auto;
+  }
+  &__trash {
+    color: $text-color-light;
+    cursor: pointer;
+  }
+}
+
+.table tr {
+  border-top: 1px solid $border-color-alt;
+  &:last-child {
+    border-bottom: 1px solid $border-color-alt;
+  }
+}
+
+.table tr th,
+.table tr td {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.table tr th:nth-child(1),
+.table tr td:nth-child(1) {
+  width: 216px;
+}
+
+.table tr th:nth-child(2),
+.table tr td:nth-child(2) {
+  width: 400px;
+}
+
+.table tr th:nth-child(3),
+.table tr td:nth-child(3) {
+  width: 108px;
+}
+
+.table tr th:nth-child(4),
+.table tr td:nth-child(4) {
+  width: 108px;
+}
+
+.table tr th:nth-child(5),
+.table tr td:nth-child(5) {
+  width: 200px;
+}
+
+.table tr th:nth-child(6),
+.table tr td:nth-child(6) {
+  width: 152px;
+}

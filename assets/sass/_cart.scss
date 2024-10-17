@@ -1,0 +1,71 @@
+.cart {
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+  &__group {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+  }
+  &__shipping .section__title,
+  &__coupon .section__title,
+  &__total .section__title {
+    font-size: $large-font-size;
+    margin-bottom: 1rem;
+  }
+  &__coupon {
+    margin-top: 3rem;
+    &__form .form__group {
+      align-items: center;
+    }
+  }
+  &__total {
+    border: 1px solid $border-color-alt;
+    border-radius: 0.25rem;
+    padding: 1.75rem;
+  }
+  &__total-table {
+    margin-bottom: 1rem;
+    & tr td {
+      border: 1px solid $border-color-alt;
+      padding: 0.75rem;
+      width: 50%;
+    }
+  }
+  &__total-title {
+    font-size: $small-font-size;
+  }
+
+  &__total-price {
+    color: $first-color;
+    font-weight: $weight-700;
+  }
+  &__total .btn {
+    display: inline-flex;
+  }
+}
+
+.divider {
+  position: relative;
+  text-align: center;
+  margin-block: 3rem;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    border-top: 2px solid $border-color-alt;
+  }
+  & i {
+    color: $text-color-light;
+    background-color: $body-color;
+    font-size: 1.25rem;
+    padding-inline: 1.25rem;
+    position: relative;
+    z-index: 10;
+  }
+}
