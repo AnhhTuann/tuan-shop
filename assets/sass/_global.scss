@@ -133,6 +133,11 @@ table {
   align-items: center;
   column-gap: 0.5rem;
 }
+
+.nav__menu-top,
+.nav__toggle {
+  display: none;
+}
 // Swiper slider
 
 .swiper {
