@@ -1,0 +1,23 @@
+.compare {
+  &__table tr th,
+  &__table tr td {
+    padding: 0.5rem;
+    border: 1px solid $border-color-alt;
+  }
+  &__table tr th {
+    color: $text-color-light;
+    font-size: $small-font-size;
+  }
+  &__table tr td {
+    text-align: center;
+  }
+  &__colors {
+    justify-content: center;
+  }
+}
+
+.table__stock,
+.table__weight,
+.table__dimension {
+  font-size: $small-font-size;
+}
