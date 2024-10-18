@@ -1270,4 +1270,63 @@ table {
   border-radius: 0.5rem;
 }
 
+.checkout__container {
+  grid-template-columns: repeat(2, 1fr);
+}
+.checkout__group:nth-child(2) {
+  border: 1px solid hsl(309, 14%, 90%);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.checkout__group {
+  font-size: 1.125rem;
+}
+.checkout__title {
+  font-size: 0.875rem;
+}
+
+.order__img {
+  width: 80px;
+}
+.order__table tr th, .order__table tr td {
+  border: 1px solid hsl(309, 14%, 90%);
+  padding: 0.5rem;
+  text-align: center;
+}
+.order__table tr th {
+  color: hsl(0, 0%, 13%);
+  font-size: 0.875rem;
+}
+.order__grand-total {
+  color: hsl(345.5, 100%, 77.3%);
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.table__quantity,
+.order__subtitle {
+  font-size: 0.875rem;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.payment__methods {
+  margin-block: 1.5rem 2.75rem;
+}
+.payment__title {
+  margin-bottom: 1rem;
+}
+.payment__option {
+  margin-bottom: 0.5rem;
+}
+.payment__input {
+  accent-color: hsl(345.5, 100%, 77.3%);
+}
+.payment__label {
+  font-size: 0.875rem;
+}
+
 /*# sourceMappingURL=app.css.map */

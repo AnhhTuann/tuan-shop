@@ -1,0 +1,20 @@
+.payment {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  &__methods {
+    margin-block: 1.5rem 2.75rem;
+  }
+  &__title {
+    margin-bottom: 1rem;
+  }
+  &__option {
+    margin-bottom: 0.5rem;
+  }
+  &__input {
+    accent-color: $first-color;
+  }
+  &__label {
+    font-size: $small-font-size;
+  }
+}

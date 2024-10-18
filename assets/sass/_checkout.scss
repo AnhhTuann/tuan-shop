@@ -1,0 +1,16 @@
+.checkout {
+  &__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  &__group:nth-child(2) {
+    border: 1px solid $border-color-alt;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  &__group {
+    font-size: $large-font-size;
+  }
+  &__title {
+    font-size: $small-font-size;
+  }
+}

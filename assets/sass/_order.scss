@@ -1,0 +1,25 @@
+.order {
+  &__img {
+    width: 80px;
+  }
+  &__table tr th,
+  &__table tr td {
+    border: 1px solid $border-color-alt;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  &__table tr th {
+    color: $title-color;
+    font-size: $small-font-size;
+  }
+  &__grand-total {
+    color: $first-color;
+    font-size: $large-font-size;
+    font-weight: $weight-700;
+  }
+}
+
+.table__quantity,
+.order__subtitle {
+  font-size: $small-font-size;
+}
