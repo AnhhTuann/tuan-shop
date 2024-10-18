@@ -1,0 +1,75 @@
+.accounts {
+  &__container {
+    grid-template-columns: 4fr 8fr;
+  }
+}
+
+.account {
+  &__tabs {
+    border: 1px solid $border-color-alt;
+    border-radius: 0.25rem;
+  }
+  &__tab {
+    padding: 1rem 2rem;
+    color: $title-color;
+    cursor: pointer;
+    font-size: $small-font-size;
+    align-items: center;
+    column-gap: 0.625rem;
+    &.active-tab {
+      background-color: $first-color;
+      color: $body-color;
+    }
+    &:not(:last-child) {
+      border: 1px solid $border-color-alt;
+    }
+  }
+}
+
+.tab {
+  &__content {
+    border: 1px solid $border-color-alt;
+    &:not(.active-tab) {
+      display: none;
+    }
+  }
+  &__header {
+    background-color: $container-color;
+    border-bottom: 1px solid $border-color-alt;
+    padding: 1rem;
+    font-size: $small-font-size;
+  }
+  &__body {
+    padding: 1rem;
+  }
+}
+
+.placed__order-table tr th {
+  color: $title-color;
+  text-align: left;
+}
+
+.placed__order-table tr th,
+.placed__order-table tr td {
+  border: 1px solid $border-color-alt;
+  padding: 0.5rem;
+  font-size: $small-font-size;
+}
+
+.view__order,
+.edit {
+  color: $first-color;
+}
+
+.address {
+  font-style: normal;
+  font-size: $small-font-size;
+  line-height: 1.5rem;
+}
+
+.city {
+  margin-bottom: 0.25rem;
+}
+.edit {
+  font-size: $small-font-size;
+}

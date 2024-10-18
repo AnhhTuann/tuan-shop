@@ -1329,6 +1329,9 @@ table {
   font-size: 0.875rem;
 }
 
+.compare {
+  border-radius: 0.5rem;
+}
 .compare__table tr th, .compare__table tr td {
   padding: 0.5rem;
   border: 1px solid hsl(309, 14%, 90%);
@@ -1347,6 +1350,77 @@ table {
 .table__stock,
 .table__weight,
 .table__dimension {
+  font-size: 0.875rem;
+}
+
+.accounts__container {
+  grid-template-columns: 4fr 8fr;
+}
+
+.account__tabs {
+  border: 1px solid hsl(309, 14%, 90%);
+  border-radius: 0.25rem;
+}
+.account__tab {
+  padding: 1rem 2rem;
+  color: hsl(0, 0%, 13%);
+  cursor: pointer;
+  font-size: 0.875rem;
+  align-items: center;
+  column-gap: 0.625rem;
+}
+.account__tab.active-tab {
+  background-color: hsl(345.5, 100%, 77.3%);
+  color: hsl(0, 0%, 100%);
+}
+.account__tab:not(:last-child) {
+  border: 1px solid hsl(309, 14%, 90%);
+}
+
+.tab__content {
+  border: 1px solid hsl(309, 14%, 90%);
+}
+.tab__content:not(.active-tab) {
+  display: none;
+}
+.tab__header {
+  background-color: hsl(0, 0%, 93%);
+  border-bottom: 1px solid hsl(309, 14%, 90%);
+  padding: 1rem;
+  font-size: 0.875rem;
+}
+.tab__body {
+  padding: 1rem;
+}
+
+.placed__order-table tr th {
+  color: hsl(0, 0%, 13%);
+  text-align: left;
+}
+
+.placed__order-table tr th,
+.placed__order-table tr td {
+  border: 1px solid hsl(309, 14%, 90%);
+  padding: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.view__order,
+.edit {
+  color: hsl(345.5, 100%, 77.3%);
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.city {
+  margin-bottom: 0.25rem;
+}
+
+.edit {
   font-size: 0.875rem;
 }
 
