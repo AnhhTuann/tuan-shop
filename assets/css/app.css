@@ -1258,4 +1258,16 @@ table {
   z-index: 10;
 }
 
+.login-register__container {
+  grid-template-columns: repeat(2, 1fr);
+  align-items: flex-start;
+}
+
+.login,
+.register {
+  border: 1px solid hsl(309, 14%, 90%);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
 /*# sourceMappingURL=app.css.map */
