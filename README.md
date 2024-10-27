@@ -32,8 +32,7 @@ Về **Front-end** :arrow_forward::
 
 #### Giao diện Giỏ hàng :point_right:
 
-<img alt="cart" src="./assets/markdown/cart-1.png" width="auto"/>
-<img alt="cart" src="./assets/markdown/cart-2.png" width="auto"/>
+<img alt="cart" src="./assets/markdown/cart.png" width="auto"/>
 
 #### Giao diện Thanh toán :point_right:
 
