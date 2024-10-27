@@ -40,7 +40,7 @@ Về **Front-end** :arrow_forward::
 
 #### Giao diện Sản phẩm mong muốn :point_right:
 
-<img alt="wish-list" src="./assets/markdown/wish-list.png" width="auto"/>
+<img alt="wish-list" src="./assets/markdown/wishlist.png" width="auto"/>
 
 #### Giao diện Đăng ký / Đăng nhập :point_right:
 
