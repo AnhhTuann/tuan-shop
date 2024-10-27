@@ -24,46 +24,36 @@ Về **Front-end** :arrow_forward::
 <img alt="homepage" src="./assets/markdown/hompage-3.png" width="auto"/>
 <img alt="homepage" src="./assets/markdown/hompage-4.png" width="auto"/>
 
-- [ ] Thiết kế trang sản phẩm
-
 #### Giao diện Sản phẩm :point_right:
 
 <img alt="product" src="./assets/markdown/details-1.png" width="auto"/>
 <img alt="product" src="./assets/markdown/details-2.png" width="auto"/>
 <img alt="product" src="./assets/markdown/details-3.png" width="auto"/>
 
-- [ ] Thiết kế trang giỏ hàng
-
 #### Giao diện Giỏ hàng :point_right:
 
 <img alt="cart" src="./assets/markdown/cart-1.png" width="auto"/>
 <img alt="cart" src="./assets/markdown/cart-2.png" width="auto"/>
 
-- [ ] Thiết kế các trang thanh toán (gồm trang chọn phương thức thanh toán, hoàn tất thanh toán)
-
 #### Giao diện Thanh toán :point_right:
 
 <img alt="checkout" src="./assets/markdown/checkout.png" width="auto"/>
 
-- [ ] Thiết kế trang đăng ký / đăng nhập
+#### Giao diện Sản phẩm mong muốn :point_right:
+
+<img alt="wish-list" src="./assets/markdown/wish-list.png" width="auto"/>
 
 #### Giao diện Đăng ký / Đăng nhập :point_right:
 
 <img alt="register/login" src="./assets/markdown/login-register.png" width="auto"/>
 
-- [ ] Thiết kế trang hồ sơ người dùng
-
 #### Giao diện Hồ sơ người dùng :point_right:
 
 <img alt="account" src="./assets/markdown/account.png" width="auto"/>
 
-- [ ] Thiết kế trang xem đơn hàng
-
 #### Giao diện Xem đơn hàng :point_right:
 
 <img alt="check-order" src="./assets/markdown/check-product.png" width="auto"/>
-
-- [ ] Thiết kế trang so sánh sản phẩm
 
 #### Giao diện So sánh sản phẩm :point_right:
 
