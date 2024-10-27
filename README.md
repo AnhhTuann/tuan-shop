@@ -52,7 +52,7 @@ Về **Front-end** :arrow_forward::
 
 #### Giao diện Xem đơn hàng :point_right:
 
-<img alt="check-order" src="./assets/markdown/check-product.png" width="auto"/>
+<img alt="check-order" src="./assets/markdown/order.png" width="auto"/>
 
 #### Giao diện So sánh sản phẩm :point_right:
 
